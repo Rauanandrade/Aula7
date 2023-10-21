@@ -37,7 +37,7 @@ while True:
             num1= int(input('Digite o primeiro valor: '))
             num2= int(input('Digite o segundo valor: '))
             subtracao = num1 - num2
-            print(f'\nA soma de {num1} - {num2}= {subtracao}')
+            print(f'\nA Subtração de {num1} - {num2}= {subtracao}')
             loop= input('\nDeseja fazer outra operação? (S/N)  ').upper()
             if loop == 'N':
                 break
@@ -47,7 +47,7 @@ while True:
             num1= int(input('Digite o primeiro valor: '))
             num2= int(input('Digite o segundo valor: '))
             mult = num1 * num2
-            print(f'\nA soma de {num1} - {num2}= {mult}')
+            print(f'\nA Multiplicação de {num1} X {num2}= {mult}')
             loop= input('\nDeseja fazer outra operação? (S/N)  ').upper()
             if loop == 'N':
                 break
@@ -57,7 +57,7 @@ while True:
             num1= int(input('Digite o primeiro valor: '))
             num2= int(input('Digite o segundo valor: '))
             divisao = num1 / num2
-            print(f'\nA soma de {num1} - {num2}= {divisao}')
+            print(f'\nA Divisão de {num1} / {num2}= {divisao}')
             loop= input('\nDeseja fazer outra operação? (S/N)  ').upper()
             if loop == 'N':
                 break
